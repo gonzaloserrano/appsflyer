@@ -37,6 +37,7 @@ func GetInAppEventsReports() error {
 		return err
 	}
 	fmt.Println(reports)
+	return nil
 }
 ```
 
